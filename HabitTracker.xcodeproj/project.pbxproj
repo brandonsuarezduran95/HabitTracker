@@ -7,16 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9929FC982A6DDA42002C1BF2 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FC972A6DDA42002C1BF2 /* MainNavigationController.swift */; };
+		9929FC9C2A6DDCB1002C1BF2 /* Extension + NSNotification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FC9B2A6DDCB1002C1BF2 /* Extension + NSNotification.Name.swift */; };
+		9929FC9E2A6DE014002C1BF2 /* MainTabBarController + delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FC9D2A6DE014002C1BF2 /* MainTabBarController + delegate.swift */; };
+		9929FCA02A6DE8D1002C1BF2 /* MainTabBarController + notificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FC9F2A6DE8D1002C1BF2 /* MainTabBarController + notificationCenter.swift */; };
+		9929FCA22A6DEC14002C1BF2 /* MainTabBarController + setupRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FCA12A6DEC14002C1BF2 /* MainTabBarController + setupRightButton.swift */; };
+		9929FCA42A6DFA3B002C1BF2 /* CreateHabitViewController + setupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FCA32A6DFA3B002C1BF2 /* CreateHabitViewController + setupController.swift */; };
+		9929FCA62A6DFBBC002C1BF2 /* CreateHabitViewController + setupTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FCA52A6DFBBC002C1BF2 /* CreateHabitViewController + setupTableView.swift */; };
+		9929FCA82A6DFC04002C1BF2 /* CreateHabitViewController + setupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FCA72A6DFC04002C1BF2 /* CreateHabitViewController + setupViews.swift */; };
+		9929FCAA2A6DFCA9002C1BF2 /* CreateHabitViewController + tableViewDelegate + tableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FCA92A6DFCA9002C1BF2 /* CreateHabitViewController + tableViewDelegate + tableViewDataSource.swift */; };
+		9929FCAC2A6DFD27002C1BF2 /* CreateHabitViewController + setupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FCAB2A6DFD27002C1BF2 /* CreateHabitViewController + setupButton.swift */; };
+		993DBDE52A851D39001D036B /* HabitCreationViewController + setupThirdRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DBDE42A851D39001D036B /* HabitCreationViewController + setupThirdRow.swift */; };
+		993DBDE72A853F66001D036B /* HabitCreationViewController + setupFourthRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DBDE62A853F66001D036B /* HabitCreationViewController + setupFourthRow.swift */; };
 		9943EFD22A29063A006512A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFD12A29063A006512A8 /* AppDelegate.swift */; };
 		9943EFD42A29063A006512A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFD32A29063A006512A8 /* SceneDelegate.swift */; };
-		9943EFD62A29063A006512A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFD52A29063A006512A8 /* ViewController.swift */; };
-		9943EFD92A29063A006512A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9943EFD72A29063A006512A8 /* Main.storyboard */; };
+		9943EFD62A29063A006512A8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFD52A29063A006512A8 /* MainViewController.swift */; };
 		9943EFDC2A29063A006512A8 /* HabitTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFDA2A29063A006512A8 /* HabitTracker.xcdatamodeld */; };
 		9943EFDE2A29063C006512A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9943EFDD2A29063C006512A8 /* Assets.xcassets */; };
 		9943EFE12A29063C006512A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9943EFDF2A29063C006512A8 /* LaunchScreen.storyboard */; };
 		9943EFEC2A29063C006512A8 /* HabitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFEB2A29063C006512A8 /* HabitTrackerTests.swift */; };
 		9943EFF62A29063C006512A8 /* HabitTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFF52A29063C006512A8 /* HabitTrackerUITests.swift */; };
 		9943EFF82A29063C006512A8 /* HabitTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943EFF72A29063C006512A8 /* HabitTrackerUITestsLaunchTests.swift */; };
+		99526E142ABBECE3005A3153 /* NewHabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99526E132ABBECE3005A3153 /* NewHabitViewModel.swift */; };
+		99526E1C2AC7317F005A3153 /* MainViewController + notificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99526E1B2AC7317F005A3153 /* MainViewController + notificationCenter.swift */; };
+		99526E1F2AC734AF005A3153 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99526E1E2AC734AF005A3153 /* HabitTableViewCell.swift */; };
+		99526E212AC735EA005A3153 /* HabitTableViewCell + setUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99526E202AC735EA005A3153 /* HabitTableViewCell + setUpViewModel.swift */; };
+		99526E232AC8C042005A3153 /* HabitTableViewCell + setupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99526E222AC8C042005A3153 /* HabitTableViewCell + setupViews.swift */; };
+		996862FC2A6EE2430017A66B /* HabitCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996862FB2A6EE2430017A66B /* HabitCreationViewController.swift */; };
+		996862FF2A6EE3D70017A66B /* HabitCreationViewController + setupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996862FE2A6EE3D70017A66B /* HabitCreationViewController + setupViews.swift */; };
+		9968630E2A7166BC0017A66B /* HabitCreationViewController + setupScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968630D2A7166BC0017A66B /* HabitCreationViewController + setupScrollView.swift */; };
+		996863102A71681C0017A66B /* HabitCreationViewController + setupFirstRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968630F2A71681C0017A66B /* HabitCreationViewController + setupFirstRow.swift */; };
+		996863122A7171610017A66B /* HabitCreationViewController + setupSecondRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996863112A7171610017A66B /* HabitCreationViewController + setupSecondRow.swift */; };
+		99A071782A6B0F710077314E /* MainViewController + SetUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A071772A6B0F710077314E /* MainViewController + SetUpController.swift */; };
+		99A0717A2A6B10290077314E /* MainViewController + setUpTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A071792A6B10290077314E /* MainViewController + setUpTableView.swift */; };
+		99A0717E2A6B10B30077314E /* MainViewController + tableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0717D2A6B10B30077314E /* MainViewController + tableViewDataSource.swift */; };
+		99A071802A6B10E80077314E /* MainViewController + tableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0717F2A6B10E80077314E /* MainViewController + tableViewDelegate.swift */; };
+		99A071852A6B12BC0077314E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A071842A6B12BC0077314E /* MainTabBarController.swift */; };
+		99A071882A6B13200077314E /* MainTabBarController + setupControllerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A071872A6B13200077314E /* MainTabBarController + setupControllerViews.swift */; };
+		99A071902A6B324C0077314E /* CreateHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0718F2A6B324C0077314E /* CreateHabitViewController.swift */; };
+		99D15C7B2AA08EB400649146 /* HabitCreationViewController + requireSlotCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15C7A2AA08EB400649146 /* HabitCreationViewController + requireSlotCompletion.swift */; };
+		99DD79712A91DFF000435913 /* HabitCreationViewController + setupFifthRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DD79702A91DFEF00435913 /* HabitCreationViewController + setupFifthRow.swift */; };
+		99DD79732A9595B000435913 /* HabitCreationViewController + setupSixthRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DD79722A9595B000435913 /* HabitCreationViewController + setupSixthRow.swift */; };
+		99DD79762A959A2500435913 /* HabitCreationViewController + setupCreateHabitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DD79752A959A2500435913 /* HabitCreationViewController + setupCreateHabitButton.swift */; };
+		99DD79782A96B36400435913 /* HabitCreationViewController + setupAdvanceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DD79772A96B36400435913 /* HabitCreationViewController + setupAdvanceButton.swift */; };
+		99DD797A2A96EC0E00435913 /* HabitCreationViewController + setupChallengeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DD79792A96EC0E00435913 /* HabitCreationViewController + setupChallengeButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +71,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9929FC972A6DDA42002C1BF2 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		9929FC9B2A6DDCB1002C1BF2 /* Extension + NSNotification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + NSNotification.Name.swift"; sourceTree = "<group>"; };
+		9929FC9D2A6DE014002C1BF2 /* MainTabBarController + delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabBarController + delegate.swift"; sourceTree = "<group>"; };
+		9929FC9F2A6DE8D1002C1BF2 /* MainTabBarController + notificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabBarController + notificationCenter.swift"; sourceTree = "<group>"; };
+		9929FCA12A6DEC14002C1BF2 /* MainTabBarController + setupRightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabBarController + setupRightButton.swift"; sourceTree = "<group>"; };
+		9929FCA32A6DFA3B002C1BF2 /* CreateHabitViewController + setupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateHabitViewController + setupController.swift"; sourceTree = "<group>"; };
+		9929FCA52A6DFBBC002C1BF2 /* CreateHabitViewController + setupTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateHabitViewController + setupTableView.swift"; sourceTree = "<group>"; };
+		9929FCA72A6DFC04002C1BF2 /* CreateHabitViewController + setupViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateHabitViewController + setupViews.swift"; sourceTree = "<group>"; };
+		9929FCA92A6DFCA9002C1BF2 /* CreateHabitViewController + tableViewDelegate + tableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateHabitViewController + tableViewDelegate + tableViewDataSource.swift"; sourceTree = "<group>"; };
+		9929FCAB2A6DFD27002C1BF2 /* CreateHabitViewController + setupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateHabitViewController + setupButton.swift"; sourceTree = "<group>"; };
+		993DBDE42A851D39001D036B /* HabitCreationViewController + setupThirdRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupThirdRow.swift"; sourceTree = "<group>"; };
+		993DBDE62A853F66001D036B /* HabitCreationViewController + setupFourthRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupFourthRow.swift"; sourceTree = "<group>"; };
 		9943EFCE2A29063A006512A8 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9943EFD12A29063A006512A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9943EFD32A29063A006512A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9943EFD52A29063A006512A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9943EFD82A29063A006512A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9943EFD52A29063A006512A8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9943EFDB2A29063A006512A8 /* HabitTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HabitTracker.xcdatamodel; sourceTree = "<group>"; };
 		9943EFDD2A29063C006512A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9943EFE02A29063C006512A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +96,29 @@
 		9943EFF12A29063C006512A8 /* HabitTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9943EFF52A29063C006512A8 /* HabitTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerUITests.swift; sourceTree = "<group>"; };
 		9943EFF72A29063C006512A8 /* HabitTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99526E132ABBECE3005A3153 /* NewHabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitViewModel.swift; sourceTree = "<group>"; };
+		99526E1B2AC7317F005A3153 /* MainViewController + notificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController + notificationCenter.swift"; sourceTree = "<group>"; };
+		99526E1E2AC734AF005A3153 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
+		99526E202AC735EA005A3153 /* HabitTableViewCell + setUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitTableViewCell + setUpViewModel.swift"; sourceTree = "<group>"; };
+		99526E222AC8C042005A3153 /* HabitTableViewCell + setupViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitTableViewCell + setupViews.swift"; sourceTree = "<group>"; };
+		996862FB2A6EE2430017A66B /* HabitCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCreationViewController.swift; sourceTree = "<group>"; };
+		996862FE2A6EE3D70017A66B /* HabitCreationViewController + setupViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupViews.swift"; sourceTree = "<group>"; };
+		9968630D2A7166BC0017A66B /* HabitCreationViewController + setupScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupScrollView.swift"; sourceTree = "<group>"; };
+		9968630F2A71681C0017A66B /* HabitCreationViewController + setupFirstRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupFirstRow.swift"; sourceTree = "<group>"; };
+		996863112A7171610017A66B /* HabitCreationViewController + setupSecondRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupSecondRow.swift"; sourceTree = "<group>"; };
+		99A071772A6B0F710077314E /* MainViewController + SetUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController + SetUpController.swift"; sourceTree = "<group>"; };
+		99A071792A6B10290077314E /* MainViewController + setUpTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController + setUpTableView.swift"; sourceTree = "<group>"; };
+		99A0717D2A6B10B30077314E /* MainViewController + tableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController + tableViewDataSource.swift"; sourceTree = "<group>"; };
+		99A0717F2A6B10E80077314E /* MainViewController + tableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController + tableViewDelegate.swift"; sourceTree = "<group>"; };
+		99A071842A6B12BC0077314E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		99A071872A6B13200077314E /* MainTabBarController + setupControllerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabBarController + setupControllerViews.swift"; sourceTree = "<group>"; };
+		99A0718F2A6B324C0077314E /* CreateHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHabitViewController.swift; sourceTree = "<group>"; };
+		99D15C7A2AA08EB400649146 /* HabitCreationViewController + requireSlotCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + requireSlotCompletion.swift"; sourceTree = "<group>"; };
+		99DD79702A91DFEF00435913 /* HabitCreationViewController + setupFifthRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupFifthRow.swift"; sourceTree = "<group>"; };
+		99DD79722A9595B000435913 /* HabitCreationViewController + setupSixthRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupSixthRow.swift"; sourceTree = "<group>"; };
+		99DD79752A959A2500435913 /* HabitCreationViewController + setupCreateHabitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupCreateHabitButton.swift"; sourceTree = "<group>"; };
+		99DD79772A96B36400435913 /* HabitCreationViewController + setupAdvanceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupAdvanceButton.swift"; sourceTree = "<group>"; };
+		99DD79792A96EC0E00435913 /* HabitCreationViewController + setupChallengeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitCreationViewController + setupChallengeButtons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +146,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9929FC942A6DDA17002C1BF2 /* MainNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				9929FC962A6DDA27002C1BF2 /* View */,
+				9929FC952A6DDA23002C1BF2 /* Controller */,
+			);
+			path = MainNavigationController;
+			sourceTree = "<group>";
+		};
+		9929FC952A6DDA23002C1BF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9929FC972A6DDA42002C1BF2 /* MainNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9929FC962A6DDA27002C1BF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9929FC992A6DDC90002C1BF2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9929FC9B2A6DDCB1002C1BF2 /* Extension + NSNotification.Name.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		9943EFC52A29063A006512A8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +201,15 @@
 		9943EFD02A29063A006512A8 /* HabitTracker */ = {
 			isa = PBXGroup;
 			children = (
-				9943EFD12A29063A006512A8 /* AppDelegate.swift */,
-				9943EFD32A29063A006512A8 /* SceneDelegate.swift */,
-				9943EFD52A29063A006512A8 /* ViewController.swift */,
-				9943EFD72A29063A006512A8 /* Main.storyboard */,
-				9943EFDD2A29063C006512A8 /* Assets.xcassets */,
-				9943EFDF2A29063C006512A8 /* LaunchScreen.storyboard */,
+				9929FC992A6DDC90002C1BF2 /* Extension */,
+				9929FC942A6DDA17002C1BF2 /* MainNavigationController */,
+				99A0718B2A6B32160077314E /* CreateHabitController */,
+				99A071822A6B128A0077314E /* TabBarController */,
+				99A071812A6B12490077314E /* CoreData */,
+				99A071732A6B0EC40077314E /* Assets */,
+				99A071722A6B0EB50077314E /* System Generated */,
+				99A071742A6B0F350077314E /* MainViewController */,
 				9943EFE22A29063C006512A8 /* Info.plist */,
-				9943EFDA2A29063A006512A8 /* HabitTracker.xcdatamodeld */,
 			);
 			path = HabitTracker;
 			sourceTree = "<group>";
@@ -128,6 +229,191 @@
 				9943EFF72A29063C006512A8 /* HabitTrackerUITestsLaunchTests.swift */,
 			);
 			path = HabitTrackerUITests;
+			sourceTree = "<group>";
+		};
+		99526E122ABBECB5005A3153 /* HabitViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99526E132ABBECE3005A3153 /* NewHabitViewModel.swift */,
+			);
+			path = HabitViewModel;
+			sourceTree = "<group>";
+		};
+		99526E1D2AC73454005A3153 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				99526E1E2AC734AF005A3153 /* HabitTableViewCell.swift */,
+				99526E202AC735EA005A3153 /* HabitTableViewCell + setUpViewModel.swift */,
+				99526E222AC8C042005A3153 /* HabitTableViewCell + setupViews.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		996862F82A6EE2100017A66B /* Create Habit Page */ = {
+			isa = PBXGroup;
+			children = (
+				99526E122ABBECB5005A3153 /* HabitViewModel */,
+				996862FA2A6EE2240017A66B /* View */,
+				996862F92A6EE21D0017A66B /* Controller */,
+			);
+			path = "Create Habit Page";
+			sourceTree = "<group>";
+		};
+		996862F92A6EE21D0017A66B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				996862FB2A6EE2430017A66B /* HabitCreationViewController.swift */,
+				99D15C7A2AA08EB400649146 /* HabitCreationViewController + requireSlotCompletion.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		996862FA2A6EE2240017A66B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99DD79742A959A0900435913 /* Rows */,
+				996862FE2A6EE3D70017A66B /* HabitCreationViewController + setupViews.swift */,
+				9968630D2A7166BC0017A66B /* HabitCreationViewController + setupScrollView.swift */,
+				99DD79752A959A2500435913 /* HabitCreationViewController + setupCreateHabitButton.swift */,
+				99DD79772A96B36400435913 /* HabitCreationViewController + setupAdvanceButton.swift */,
+				99DD79792A96EC0E00435913 /* HabitCreationViewController + setupChallengeButtons.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99A071722A6B0EB50077314E /* System Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9943EFD12A29063A006512A8 /* AppDelegate.swift */,
+				9943EFD32A29063A006512A8 /* SceneDelegate.swift */,
+			);
+			path = "System Generated";
+			sourceTree = "<group>";
+		};
+		99A071732A6B0EC40077314E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9943EFDF2A29063C006512A8 /* LaunchScreen.storyboard */,
+				9943EFDD2A29063C006512A8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		99A071742A6B0F350077314E /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99A071762A6B0F550077314E /* View */,
+				99A071752A6B0F4D0077314E /* Controller */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		99A071752A6B0F4D0077314E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9943EFD52A29063A006512A8 /* MainViewController.swift */,
+				99526E1B2AC7317F005A3153 /* MainViewController + notificationCenter.swift */,
+				99A0717C2A6B10900077314E /* TableView */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99A071762A6B0F550077314E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99A071772A6B0F710077314E /* MainViewController + SetUpController.swift */,
+				99A071792A6B10290077314E /* MainViewController + setUpTableView.swift */,
+				99526E1D2AC73454005A3153 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99A0717C2A6B10900077314E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				99A0717D2A6B10B30077314E /* MainViewController + tableViewDataSource.swift */,
+				99A0717F2A6B10E80077314E /* MainViewController + tableViewDelegate.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		99A071812A6B12490077314E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9943EFDA2A29063A006512A8 /* HabitTracker.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		99A071822A6B128A0077314E /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				99A071862A6B12FB0077314E /* View */,
+				99A071832A6B12920077314E /* Controller */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		99A071832A6B12920077314E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99A071842A6B12BC0077314E /* MainTabBarController.swift */,
+				9929FCA12A6DEC14002C1BF2 /* MainTabBarController + setupRightButton.swift */,
+				9929FC9D2A6DE014002C1BF2 /* MainTabBarController + delegate.swift */,
+				9929FC9F2A6DE8D1002C1BF2 /* MainTabBarController + notificationCenter.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99A071862A6B12FB0077314E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99A071872A6B13200077314E /* MainTabBarController + setupControllerViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99A0718B2A6B32160077314E /* CreateHabitController */ = {
+			isa = PBXGroup;
+			children = (
+				996862F82A6EE2100017A66B /* Create Habit Page */,
+				99A0718D2A6B32300077314E /* View */,
+				99A0718C2A6B32270077314E /* Controller */,
+			);
+			path = CreateHabitController;
+			sourceTree = "<group>";
+		};
+		99A0718C2A6B32270077314E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99A0718F2A6B324C0077314E /* CreateHabitViewController.swift */,
+				9929FCA32A6DFA3B002C1BF2 /* CreateHabitViewController + setupController.swift */,
+				9929FCA92A6DFCA9002C1BF2 /* CreateHabitViewController + tableViewDelegate + tableViewDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99A0718D2A6B32300077314E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9929FCA52A6DFBBC002C1BF2 /* CreateHabitViewController + setupTableView.swift */,
+				9929FCAB2A6DFD27002C1BF2 /* CreateHabitViewController + setupButton.swift */,
+				9929FCA72A6DFC04002C1BF2 /* CreateHabitViewController + setupViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99DD79742A959A0900435913 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				9968630F2A71681C0017A66B /* HabitCreationViewController + setupFirstRow.swift */,
+				996863112A7171610017A66B /* HabitCreationViewController + setupSecondRow.swift */,
+				993DBDE42A851D39001D036B /* HabitCreationViewController + setupThirdRow.swift */,
+				99DD79702A91DFEF00435913 /* HabitCreationViewController + setupFifthRow.swift */,
+				993DBDE62A853F66001D036B /* HabitCreationViewController + setupFourthRow.swift */,
+				99DD79722A9595B000435913 /* HabitCreationViewController + setupSixthRow.swift */,
+			);
+			path = Rows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +522,6 @@
 			files = (
 				9943EFE12A29063C006512A8 /* LaunchScreen.storyboard in Resources */,
 				9943EFDE2A29063C006512A8 /* Assets.xcassets in Resources */,
-				9943EFD92A29063A006512A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +546,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9943EFD62A29063A006512A8 /* ViewController.swift in Sources */,
+				9968630E2A7166BC0017A66B /* HabitCreationViewController + setupScrollView.swift in Sources */,
+				99DD797A2A96EC0E00435913 /* HabitCreationViewController + setupChallengeButtons.swift in Sources */,
+				99A071782A6B0F710077314E /* MainViewController + SetUpController.swift in Sources */,
+				996862FF2A6EE3D70017A66B /* HabitCreationViewController + setupViews.swift in Sources */,
+				9929FCA82A6DFC04002C1BF2 /* CreateHabitViewController + setupViews.swift in Sources */,
+				9943EFD62A29063A006512A8 /* MainViewController.swift in Sources */,
+				99A071852A6B12BC0077314E /* MainTabBarController.swift in Sources */,
+				9929FCA02A6DE8D1002C1BF2 /* MainTabBarController + notificationCenter.swift in Sources */,
+				996863102A71681C0017A66B /* HabitCreationViewController + setupFirstRow.swift in Sources */,
+				99DD79732A9595B000435913 /* HabitCreationViewController + setupSixthRow.swift in Sources */,
+				99A071882A6B13200077314E /* MainTabBarController + setupControllerViews.swift in Sources */,
 				9943EFDC2A29063A006512A8 /* HabitTracker.xcdatamodeld in Sources */,
+				99A0717A2A6B10290077314E /* MainViewController + setUpTableView.swift in Sources */,
+				99526E212AC735EA005A3153 /* HabitTableViewCell + setUpViewModel.swift in Sources */,
+				99DD79712A91DFF000435913 /* HabitCreationViewController + setupFifthRow.swift in Sources */,
+				9929FC9E2A6DE014002C1BF2 /* MainTabBarController + delegate.swift in Sources */,
+				99A071802A6B10E80077314E /* MainViewController + tableViewDelegate.swift in Sources */,
+				9929FCA42A6DFA3B002C1BF2 /* CreateHabitViewController + setupController.swift in Sources */,
 				9943EFD22A29063A006512A8 /* AppDelegate.swift in Sources */,
+				996862FC2A6EE2430017A66B /* HabitCreationViewController.swift in Sources */,
+				9929FCA62A6DFBBC002C1BF2 /* CreateHabitViewController + setupTableView.swift in Sources */,
+				99D15C7B2AA08EB400649146 /* HabitCreationViewController + requireSlotCompletion.swift in Sources */,
+				993DBDE72A853F66001D036B /* HabitCreationViewController + setupFourthRow.swift in Sources */,
+				99A071902A6B324C0077314E /* CreateHabitViewController.swift in Sources */,
 				9943EFD42A29063A006512A8 /* SceneDelegate.swift in Sources */,
+				9929FCAC2A6DFD27002C1BF2 /* CreateHabitViewController + setupButton.swift in Sources */,
+				99DD79782A96B36400435913 /* HabitCreationViewController + setupAdvanceButton.swift in Sources */,
+				9929FC982A6DDA42002C1BF2 /* MainNavigationController.swift in Sources */,
+				993DBDE52A851D39001D036B /* HabitCreationViewController + setupThirdRow.swift in Sources */,
+				9929FCA22A6DEC14002C1BF2 /* MainTabBarController + setupRightButton.swift in Sources */,
+				99526E142ABBECE3005A3153 /* NewHabitViewModel.swift in Sources */,
+				99526E232AC8C042005A3153 /* HabitTableViewCell + setupViews.swift in Sources */,
+				9929FCAA2A6DFCA9002C1BF2 /* CreateHabitViewController + tableViewDelegate + tableViewDataSource.swift in Sources */,
+				99DD79762A959A2500435913 /* HabitCreationViewController + setupCreateHabitButton.swift in Sources */,
+				99A0717E2A6B10B30077314E /* MainViewController + tableViewDataSource.swift in Sources */,
+				9929FC9C2A6DDCB1002C1BF2 /* Extension + NSNotification.Name.swift in Sources */,
+				996863122A7171610017A66B /* HabitCreationViewController + setupSecondRow.swift in Sources */,
+				99526E1F2AC734AF005A3153 /* HabitTableViewCell.swift in Sources */,
+				99526E1C2AC7317F005A3153 /* MainViewController + notificationCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +621,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9943EFD72A29063A006512A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9943EFD82A29063A006512A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9943EFDF2A29063C006512A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,11 +756,11 @@
 				DEVELOPMENT_TEAM = DPK379U73T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HabitTracker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,11 +784,11 @@
 				DEVELOPMENT_TEAM = DPK379U73T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HabitTracker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
